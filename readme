@@ -1,0 +1,13 @@
+実行方法
+python -m venv venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+
+ipアドレスの情報取得
+python seisaku.py
+
+ドメイン名からIpアドレスを取得
+python ip.py
+
+ドメイン名からIpアドレスの情報を取得
+Python TrackingIP.py
