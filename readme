@@ -1,8 +1,12 @@
 実行方法
 python -m venv venv
-source ./venv/bin/activate
+
+(Linux) source ./venv/bin/activate    
+(Windows) ./venv/Scripts/activate
+
 pip install -r requirements.txt
 
+cd seisaku 
 ipアドレスの情報取得
 python seisaku.py
 
@@ -10,4 +14,4 @@ python seisaku.py
 python ip.py
 
 ドメイン名からIpアドレスの情報を取得
-Python TrackingIP.py
+python TrackingIP.py
